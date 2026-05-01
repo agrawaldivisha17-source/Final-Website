@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Daily Schedule</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <nav>
+  <ul class="navigationbar">
+    
+    <li><a href="https://codepen.io/Divisha-Agrawal/full/jEMppKy" style="color: black;">Home </a></li>
+    <li><a href="https://codepen.io/Divisha-Agrawal/full/ogzVqvr"  style="color: black;"> To-Do list </a> </li> 
+    <li><a href="#"  class='highlighted' style="color: black;"> Daily Schedule </a> </li>
+    <li><a href="https://codepen.io/Divisha-Agrawal/pen/dPObMxz"  style="color: black;"> Pomodoro Timer </a> </li>
+    <li><a href="https://codepen.io/Divisha-Agrawal/full/KwNPZeX"  style="color: black;"> Nutrition </a> </li>
+         </nav>
+  <title>Daily Schedule</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1>Daily Schedule </h1>
+      <div class="date-display" id="dateDisplay"></div>
+    </div>
+
+    <div class="controls">
+      <button class="btn btn-primary" id="addEvent">+ Add Event</button>
+      <button class="btn btn-secondary" id="todayBtn">Today</button>
+      <button class="btn btn-secondary" id="clearBtn">Clear</button>
+    </div>
+
+    <div class="calendar-container">
+      <div class="time-grid">
+        
+        <div class="time-labels" id="timeLabels"></div>
+
+        <div class="calendar-body" id="calendarBody">
+          <div id="currentTimeIndicator" class="current-time-indicator"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="eventModal">
+    <div class="modal-content">
+      <h3>Add New Event</h3>
+
+      <div class="form-group">
+        <label>Event Title</label>
+        <input type="text" id="eventTitle">
+      </div>
+
+      <div class="form-group">
+        <label>Start Time</label>
+        <input type="time" id="eventStart">
+      </div>
+
+      <div class="form-group">
+        <label>End Time</label>
+        <input type="time" id="eventEnd">
+      </div>
+
+      <div class="form-group">
+        <label>Color</label>
+        <select id="eventColor">
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="purple">Purple</option>
+          <option value="orange">Orange</option>
+          <option value="red">Red</option>
+        </select>
+      </div>
+
+      <div class="modal-actions">
+        <button id="cancelBtn" class="btn btn-secondary">Cancel</button>
+        <button id="saveBtn" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
